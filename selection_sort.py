@@ -1,11 +1,6 @@
 def selectionSort(list):
-    for i in range(len(list)):
-        for val in list:
-            min_val=val
-            pos=0
-            if min_val < list[pos]:
-                min_val=list[pos]
-                pos = pos + 1            
+    for index in range(len(list)):
+        search_start = index       
 
 
 
