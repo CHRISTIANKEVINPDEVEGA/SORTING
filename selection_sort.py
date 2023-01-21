@@ -1,13 +1,11 @@
 def selectionSort(list):
     for index in range(10):
-        position=index
-        for value in range(position,10):
-            print(value)
+        min_position=index
+        for value in range(min_position,10):
+            if value < min_position:
+                min_position = value
 
-
-
-
-
+    
 
 
 
