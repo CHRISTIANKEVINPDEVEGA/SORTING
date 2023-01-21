@@ -14,6 +14,9 @@ def merge(fh_numbers,lh_numbers):
     fh_itemCounts=len(fh_numbers)
     lh_itemCounts=len(lh_numbers)
 
+    while fh_itemCounts > 0 and lh_itemCounts > 0:
+        
+
 
 
 
