@@ -10,7 +10,10 @@ def mergeSort(numbers):
 
 def merge(fh_numbers,lh_numbers):
     mergeSorted = []
-    
+
+    fh_itemCounts=len(fh_numbers)
+    lh_itemCounts=len(lh_numbers)
+
 
 
 
