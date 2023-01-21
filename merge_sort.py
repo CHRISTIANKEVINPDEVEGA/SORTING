@@ -18,7 +18,9 @@ def merge(fh_numbers,lh_numbers):
         if fh_numbers[0] > lh_numbers[0]:
             mergeSorted.append(lh_numbers[0])
             lh_numbers.remove([0])
-
+        else:
+            mergeSorted.append(fh_numbers[0])
+            fh_numbers.remove([0])
 
 
 
