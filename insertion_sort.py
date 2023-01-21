@@ -6,6 +6,7 @@ def insertionSort(numbers):
             temp = numbers[indexposition], numbers[indexposition-1]
             numbers[indexposition-1], numbers[indexposition] = temp
             indexposition = indexposition - 1
+        print(numbers)
 
 
 
