@@ -1,6 +1,7 @@
 def selectionSort(list):
-    for n in list:
-        print(n)
+    for i in range(9):
+        for val in list:
+            print(val)
 
 
 
