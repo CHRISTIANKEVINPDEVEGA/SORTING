@@ -5,7 +5,7 @@ def bubbleSort(numbers):
             if numbers[value] > numbers[value+1]:
                 temp = numbers[value], numbers[value+1]
                 numbers[value+1], numbers[value] = temp
-                
+        print(numbers)
 
 
 
