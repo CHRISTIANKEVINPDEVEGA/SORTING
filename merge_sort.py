@@ -15,7 +15,9 @@ def merge(fh_numbers,lh_numbers):
     lh_itemCounts=len(lh_numbers)
 
     while fh_itemCounts > 0 and lh_itemCounts > 0:
-        
+        if fh_numbers[0] > lh_numbers[0]:
+            mergeSorted.append(lh_numbers[0])
+            lh_numbers.remove([0])
 
 
 
