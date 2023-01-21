@@ -5,6 +5,7 @@ def insertionSort(numbers):
         while indexposition < 0 and numbers[indexposition-1] > numbers[indexposition]:
             temp = numbers[indexposition], numbers[indexposition-1]
             numbers[indexposition-1], numbers[indexposition] = temp
+            indexposition = indexposition - 1
 
 
 
