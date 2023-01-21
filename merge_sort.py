@@ -22,6 +22,11 @@ def merge(fh_numbers,lh_numbers):
             mergeSorted.append(fh_numbers[0])
             fh_numbers.remove([0])
 
+    while  fh_itemCounts > 0:
+        mergeSorted.append(fh_numbers[0])
+        fh_numbers.remove(0)
+
+     
 
 
 Numbers = [76, 72, 100, 92, 88, 71, 81, 45, 70, 42]
