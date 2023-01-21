@@ -1,7 +1,7 @@
 def selectionSort(list):
     for index in range(len(list)):
         search_start = index
-        for value in list:
+        for value in range(search_start,len(list)):
             least_value = value
             if least_value < list[search_start]:
                 list[search_start]=least_value
