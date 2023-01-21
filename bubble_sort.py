@@ -1,8 +1,6 @@
 def bubbleSort(numbers):
-
-
-
-
+    itemCount = len(numbers)
+    for index in range(itemCount-1):
 
 
 
