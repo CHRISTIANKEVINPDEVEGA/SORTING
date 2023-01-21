@@ -2,7 +2,8 @@ def insertionSort(numbers):
     itemCounts = len(numbers)
     for index in range(itemCounts):
         indexposition=index
-        
+        while indexposition < 0 and numbers[indexposition-1] > numbers[indexposition]:
+
 
 
 
