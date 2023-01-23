@@ -27,7 +27,10 @@ def merge(fh_numbers,lh_numbers):
             mergeSorted.append(lh_numbers[lh_index])
             lh_index = lh_index + 1
 
+    mergeSorted.extend(fh_numbers[fh_index:])
+    mergeSorted.extend(lh_numbers[lh_index:])
 
+    return mergeSorted
 
 Numbers = [76, 72, 100, 92, 88, 71, 81, 45, 70, 42]
 print(mergeSort(Numbers))
