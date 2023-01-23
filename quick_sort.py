@@ -10,6 +10,11 @@ def partition(numbers, lower, higher):
     
     return lower
 
+def quickSort(numbers, lower, higher):
+    if lower < higher:  
+        partition_index = partition(numbers,lower, higher)
+
 
 Numbers = [76, 72, 100, 92, 88, 71, 81, 45, 70, 42]
-quickSort(Numbers)
+quickSort(Numbers, 0, len(Numbers)-1)
+print(Numbers)
